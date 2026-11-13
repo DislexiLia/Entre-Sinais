@@ -8,7 +8,7 @@ import {
   getPlaylistById,
   refreshTrackPreview,
   searchCatalog,
-} from './server/catalog.ts';
+} from '../server/catalog.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
